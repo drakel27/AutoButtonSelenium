@@ -35,7 +35,7 @@ jobs:
           working_directory: ~/project/App.Tests
           name: Run tests
           command: |
-            dotnet test
+            pipenv run python ClickButton.py test
             
 
 workflows:
